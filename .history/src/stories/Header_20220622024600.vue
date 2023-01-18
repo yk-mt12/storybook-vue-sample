@@ -21,9 +21,9 @@
         <h1>Acme</h1>
       </div>
       <div>
-        <my-button primary size="small" @click="$emit('createAccount')" label="Sign up" v-if="!user" />
         <my-button size="small" @click="$emit('logout')" label="Log out" v-if="user" />
         <my-button size="small" @click="$emit('login')" label="Log in" v-if="!user" />
+        <my-button primary size="small" @click="$emit('createAccount')" label="Sign up" v-if="!user" />
       </div>
     </div>
   </header>

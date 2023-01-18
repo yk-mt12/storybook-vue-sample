@@ -7,6 +7,7 @@
 </template>
 
 <script>
+import Header from "./stories/Header.vue";
 import Page from "./stories/Page.vue";
 
 export default {

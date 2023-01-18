@@ -1,17 +1,20 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png" />
-    <Header emits="login"/>
-    <Page />
+    <HelloWorld msg="タイトルを編集してみた" />
+    <Header/>
+    <Page/>
   </div>
 </template>
 
 <script>
+import Header from "./stories/Header.vue";
 import Page from "./stories/Page.vue";
 
 export default {
   name: "App",
   components: {
+    Header,
     Page
   }
 };
