@@ -18,7 +18,7 @@
             />
           </g>
         </svg>
-        <h1>Acme</h1>
+        <h1><a href="#">Acme</a></h1>
       </div>
       <div>
         <my-button primary size="small" @click="$emit('createAccount')" label="Sign up" v-if="!user" />
